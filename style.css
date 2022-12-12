@@ -1,0 +1,134 @@
+
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+	height: 100vh;
+	width: 100%;
+}
+.navbar{
+	background-color: rgb(10, 169, 249);
+	height: 70px;
+	width: 100%;
+	display: flex;
+	justify-content: end;
+	align-items: center;
+}
+
+
+
+.navbar ul{
+	display: flex;
+	
+	
+}
+
+.logo{
+	
+	position: relative;
+	left: -650px;
+	color: white;
+	font-size: 30px;
+}
+
+.navbar ul li{
+	list-style: none;
+	margin: 5px 25px;
+	color: white;
+	cursor: pointer;
+}
+.first{
+	height: 45%;
+	background-image: url(cmp.jpg);
+	background-position: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	
+}
+
+.btn{
+	margin: 40px;
+}
+button{
+	padding: 15px;
+	width: 150px;
+	border-radius: 8px;
+	border: none;
+	margin: 0 5px;
+	cursor: pointer;
+}
+
+button:first-child{
+	background-color: rgb(10, 169, 249);
+	color: white;
+}
+
+button:last-child{
+	color: rgb(10, 169, 249);
+	border: rgb(10, 169, 249) 1px solid;
+}
+
+.first .text{
+	text-align: center;
+	font-size: 50px;
+	color: rgb(10, 169, 249);
+}
+
+.first .s-text{
+	text-align: center;
+	color: purple;
+	font-size: 20px;
+}
+
+.last{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin-top: 20px;
+}
+
+.last p:first-child{
+	font-size: 40px;
+}
+
+.shape1{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	
+}
+
+.shape{
+	height: 200px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding: 50px;
+	text-align: center;
+	
+}
+
+.shape p:nth-child(2){
+	font-size: 20px;
+	font-weight: bold;
+	margin: 5px 0;
+}
+
+i{
+	font-size: 20px;
+	border-radius: 100%;
+	background-color: rgb(10, 169, 249);
+	padding: 30px;
+	color: white;
+}
+
+
+
